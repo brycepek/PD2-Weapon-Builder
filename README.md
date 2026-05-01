@@ -1,73 +1,173 @@
-# React + TypeScript + Vite
+# PAYDAY 2 Weapon Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A desktop-ready PAYDAY 2 weapon builder focused on fast comparison, mod compatibility, skill effects, and importable/exportable builds.
 
-Currently, two official plugins are available:
+Built with **React**, **TypeScript**, **Vite**, and **Tauri**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+### Gun Database
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Browse weapons in a dense database-style table.
+- Weapons are grouped by category, such as pistols, akimbo weapons, shotguns, LMGs, SMGs, assault rifles, and sniper rifles.
+- Collapse or expand weapon categories.
+- Search by weapon name, category, or ID.
+- Sort weapons by key stats.
 
-## Expanding the ESLint configuration
+### Build Mode
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Select a weapon and edit compatible attachment categories.
+- Attachment categories include barrels, barrel extensions, magazines, sights, stocks, grips, gadgets, ammo, and boosts.
+- Compatible mods are shown in sortable tables.
+- Selected mods update the weapon's final stats immediately.
+- Incompatible mods remain visible but are disabled with an explanation, for example:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+  > Incompatible with [mod name] in [category].
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Stat Calculations
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+The builder uses raw PAYDAY 2 data and converts it into displayed stats.
+
+Tracked stats include:
+
+- Magazine
+- Total ammo
+- Damage
+- Accuracy
+- Stability
+- Concealment
+- Threat
+- Reload time
+- Runtime suppression
+
+Supported calculation behavior includes:
+
+- Accuracy and stability derived from raw spread/recoil indexes.
+- Damage derived from mapped damage values and weapon stat modifiers.
+- Threat derived from raw suppression index.
+- Reload time derived from weapon timers and reload speed multipliers.
+- Shell-by-shell reload timing for applicable weapons.
+
+### Boosts
+
+The builder includes a dedicated **Boost** section.
+
+Available boost choices:
+
+- No Boost
+- Concealment Boost: `+1 concealment`
+- Stability Boost: `+4 stability`
+- Accuracy Boost: `+4 accuracy`
+
+Only one boost can be active at a time.
+
+### Skills
+
+The **Skills** tab lets you apply PAYDAY 2 skill modifiers to the active build.
+
+- Skills are grouped by weapon applicability.
+- Skill sections can be collapsed.
+- Applicable direct stat bonuses are added to build totals.
+- Skill stat changes appear in blue next to mod deltas.
+- Situational effects are listed under **Additional Stats** in Build Mode.
+
+Examples of supported skill effects:
+
+- Stable Shot
+- Rifleman
+- Marksman
+- Aggressive Reload
+- Shotgun CQB
+- Shotgun Impact
+- Fully Loaded
+- Steady Grip
+- Surefire
+- The Professional
+- Optical Illusions
+- Equilibrium
+- Gun Nut
+- Akimbo
+- One Handed Talent
+- Desperado
+
+### Import and Export
+
+The top bar includes:
+
+- **Export All**: exports selected weapon, mods, boosts, and skills.
+- **Export Gun**: exports selected weapon, mods, and boosts only.
+- **Import**: imports either export format.
+
+Exports are copied to the clipboard and show a short confirmation message.
+
+## Development
+
+Install dependencies:
+
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Start the Vite dev server:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run dev
 ```
+
+Build the web app:
+
+```bash
+npm run build
+```
+
+Run lint:
+
+```bash
+npm run lint
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## Dataset
+
+The app uses generated data from the `raw-data/` directory.
+
+Regenerate the app dataset with:
+
+```bash
+node scripts/build-dataset.mjs
+```
+
+Generated output:
+
+```text
+src/data/payday2-dataset.json
+```
+
+## Tauri
+
+The project includes a Tauri shell in `src-tauri/`.
+
+The Tauri config points to:
+
+- Dev URL: `http://localhost:5173`
+- Frontend build output: `dist`
+
+## Project Structure
+
+```text
+raw-data/                 PAYDAY 2 source data dumps
+scripts/build-dataset.mjs Dataset generation script
+src/App.tsx               Main app logic and UI
+src/App.css               Main interface styling
+src/data/                 Generated app dataset
+src-tauri/                Tauri desktop app shell
+```
+
+## Notes
+
+This project is a fan-made PAYDAY 2 build tool. It is not affiliated with or endorsed by Starbreeze, Overkill, or PAYDAY 2.
