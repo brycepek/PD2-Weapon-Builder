@@ -138,7 +138,7 @@ npm run preview
 
 ## Dataset
 
-The app uses generated data from the `raw-data/` directory.
+The app uses generated data from the `raw-data/` directory. To get the raw data, see [pd2_weapon_data_dumper.](https://github.com/brycepek/pd2_weapon_data_dumper)
 
 Regenerate the app dataset with:
 
