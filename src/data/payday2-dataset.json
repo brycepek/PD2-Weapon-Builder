@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T06:42:47.130Z",
+  "generatedAt": "2026-05-01T06:58:58.708Z",
   "statTables": {
     "concealment": [
       0.3,
@@ -594,6 +594,13 @@
         "fireRateSeconds": 0.1,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.5,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 2.15
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 15,
@@ -715,6 +722,13 @@
         "fireRateSeconds": 0.5,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.5,
+        "unequip": 0.7,
+        "reload_empty": 3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 6,
         "suppression": 14,
@@ -821,6 +835,13 @@
         "fireRateSeconds": 0.08,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.05,
+        "equip": 0.45,
+        "unequip": 0.6,
+        "reload_empty": 3.08
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 23,
         "suppression": 10,
@@ -984,6 +1005,13 @@
         "fireRateSeconds": 0.092,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.8,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3.87
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 16,
         "suppression": 10,
@@ -1029,6 +1057,13 @@
         "fireRateSeconds": 0.107,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.8,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3.87
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 13,
         "suppression": 8,
@@ -1224,6 +1259,13 @@
         "fireRateSeconds": 0.092,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.26,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3.37
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 16,
         "suppression": 10,
@@ -1407,6 +1449,13 @@
         "fireRateSeconds": 0.085,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.05,
+        "equip": 0.45,
+        "unequip": 0.6,
+        "reload_empty": 3.08
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 18,
         "suppression": 10,
@@ -1576,6 +1625,13 @@
         "fireRateSeconds": 0.08,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.5,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 23,
         "suppression": 17,
@@ -1718,6 +1774,13 @@
         "fireRateSeconds": 0.166,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 15,
@@ -1844,6 +1907,13 @@
         "fireRateSeconds": 0.09,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 28,
         "suppression": 17,
@@ -1971,6 +2041,13 @@
         "fireRateSeconds": 0.0545,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 28,
         "suppression": 14,
@@ -2099,6 +2176,13 @@
         "fireRateSeconds": 0.067,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 27,
         "suppression": 12,
@@ -2221,6 +2305,13 @@
         "fireRateSeconds": 0.166,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 26,
         "suppression": 7,
@@ -2324,6 +2415,13 @@
         "fireRateSeconds": 0.166,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 28,
         "suppression": 14,
@@ -2441,6 +2539,13 @@
         "fireRateSeconds": 0.166,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.47,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3.47
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 28,
         "suppression": 7,
@@ -2551,6 +2656,13 @@
         "fireRateSeconds": 0.083,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 18,
         "suppression": 12,
@@ -2683,6 +2795,13 @@
         "fireRateSeconds": 0.125,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 30,
         "suppression": 16,
@@ -2801,6 +2920,13 @@
         "fireRateSeconds": 0.09,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 30,
         "suppression": 15,
@@ -2922,6 +3048,13 @@
         "fireRateSeconds": 0.166,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 15,
@@ -3042,6 +3175,13 @@
         "fireRateSeconds": 0.063,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 26,
         "suppression": 16,
@@ -3164,6 +3304,13 @@
         "fireRateSeconds": 0.06,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 28,
         "suppression": 17,
@@ -3293,6 +3440,13 @@
         "fireRateSeconds": 0.08,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.5,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 24,
         "suppression": 17,
@@ -3423,6 +3577,13 @@
         "fireRateSeconds": 0.166,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 15,
@@ -3546,6 +3707,13 @@
         "fireRateSeconds": 0.08,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 18,
         "suppression": 14,
@@ -3685,6 +3853,13 @@
         "fireRateSeconds": 0.166,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 28,
         "suppression": 15,
@@ -3806,6 +3981,13 @@
         "fireRateSeconds": 0.09,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 30,
         "suppression": 16,
@@ -3930,6 +4112,13 @@
         "fireRateSeconds": 0.166,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 27,
         "suppression": 14,
@@ -4058,6 +4247,13 @@
         "fireRateSeconds": 0.06,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 26,
         "suppression": 14,
@@ -4183,6 +4379,13 @@
         "fireRateSeconds": 0.25,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 26,
         "suppression": 7,
@@ -4315,6 +4518,13 @@
         "fireRateSeconds": 0.166,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.47,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3.47
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 26,
         "suppression": 8,
@@ -4421,6 +4631,13 @@
         "fireRateSeconds": 0.166,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 15,
@@ -4529,6 +4746,13 @@
         "fireRateSeconds": 0.18,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3.5
+      },
+      "useShotgunReload": false,
       "rawStats": {
         "concealment": 13,
         "suppression": 5,
@@ -4656,6 +4880,13 @@
         "fireRateSeconds": 0.166,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 30,
         "suppression": 18,
@@ -4777,6 +5008,13 @@
         "fireRateSeconds": 0.08,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 2.5
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 28,
         "suppression": 15,
@@ -4907,6 +5145,13 @@
         "fireRateSeconds": 0.166,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 28,
         "suppression": 15,
@@ -5027,6 +5272,13 @@
         "fireRateSeconds": 0.08,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 25,
         "suppression": 16,
@@ -5151,6 +5403,13 @@
         "fireRateSeconds": 0.166,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 16,
@@ -5270,6 +5529,13 @@
         "fireRateSeconds": 0.092,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 24,
         "suppression": 14,
@@ -5405,6 +5671,13 @@
         "fireRateSeconds": 0.05,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 25,
         "suppression": 14,
@@ -5534,6 +5807,13 @@
         "fireRateSeconds": 0.12,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3.5
+      },
+      "useShotgunReload": false,
       "rawStats": {
         "concealment": 29,
         "suppression": 5,
@@ -5650,6 +5930,13 @@
         "fireRateSeconds": 0.125,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 27,
         "suppression": 7,
@@ -5761,6 +6048,13 @@
         "fireRateSeconds": 0.166,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 28,
         "suppression": 14,
@@ -5883,6 +6177,13 @@
         "fireRateSeconds": 0.066,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 25,
         "suppression": 12,
@@ -6010,6 +6311,13 @@
         "fireRateSeconds": 0.073,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3.5
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 21,
         "suppression": 8,
@@ -6156,6 +6464,13 @@
         "fireRateSeconds": 0.05,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.3,
+        "unequip": 0.3,
+        "reload_empty": 3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 20,
         "suppression": 14,
@@ -6288,6 +6603,13 @@
         "fireRateSeconds": 0.166,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 15,
@@ -6407,6 +6729,13 @@
         "fireRateSeconds": 0.11,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 30,
         "suppression": 15,
@@ -6531,6 +6860,13 @@
         "fireRateSeconds": 0.06,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 27,
         "suppression": 14,
@@ -6661,6 +6997,13 @@
         "fireRateSeconds": 0.166,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 20,
         "suppression": 7,
@@ -6765,6 +7108,13 @@
         "fireRateSeconds": 0.05,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 14,
@@ -6888,6 +7238,13 @@
         "fireRateSeconds": 0.0545,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.1,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 2.7
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 26,
         "suppression": 14,
@@ -6998,6 +7355,13 @@
         "fireRateSeconds": 0.1,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 24,
         "suppression": 14,
@@ -7124,6 +7488,13 @@
         "fireRateSeconds": 0.088,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 24,
         "suppression": 10,
@@ -7283,6 +7654,13 @@
         "fireRateSeconds": 0.166,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 15,
@@ -7384,6 +7762,13 @@
         "fireRateSeconds": 0.11,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 20,
         "suppression": 12,
@@ -7510,6 +7895,13 @@
         "fireRateSeconds": 0.166,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 15,
@@ -7634,6 +8026,13 @@
         "fireRateSeconds": 0.08,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.5,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 24,
         "suppression": 14,
@@ -7768,6 +8167,13 @@
         "fireRateSeconds": 0.063,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 23,
         "suppression": 16,
@@ -7891,6 +8297,13 @@
         "fireRateSeconds": 0.125,
         "fireMode": "single"
       },
+      "timers": {
+        "unequip": 0.5,
+        "equip": 0.5,
+        "reload_not_empty": 3.17,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 23,
         "suppression": 15,
@@ -8010,6 +8423,13 @@
         "fireRateSeconds": 0.066,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 14,
@@ -8132,6 +8552,13 @@
         "fireRateSeconds": 0.1,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 24,
         "suppression": 14,
@@ -8260,6 +8687,13 @@
         "fireRateSeconds": 0.092,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 24,
         "suppression": 14,
@@ -8407,6 +8841,13 @@
         "fireRateSeconds": 0.086,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 24,
         "suppression": 12,
@@ -8533,6 +8974,13 @@
         "fireRateSeconds": 0.22,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3.5
+      },
+      "useShotgunReload": false,
       "rawStats": {
         "concealment": 15,
         "suppression": 5,
@@ -8671,6 +9119,13 @@
         "fireRateSeconds": 0.166,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.17,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 15,
@@ -8787,6 +9242,13 @@
         "fireRateSeconds": 0.1,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3.2,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3.7
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 10,
         "suppression": 3,
@@ -8959,6 +9421,13 @@
         "fireRateSeconds": 1.5,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.7,
+        "unequip": 0.6,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 10,
         "suppression": 6,
@@ -9118,6 +9587,13 @@
         "fireRateSeconds": 0.11,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.25,
+        "equip": 0.55,
+        "unequip": 0.6,
+        "reload_empty": 3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 21,
         "suppression": 10,
@@ -9297,6 +9773,13 @@
         "fireRateSeconds": 0.07,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.75,
+        "equip": 0.6,
+        "unequip": 0.6,
+        "reload_empty": 3.73
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 17,
         "suppression": 10,
@@ -9502,6 +9985,15 @@
         "fireRateSeconds": 1.7,
         "fireMode": "single"
       },
+      "timers": {
+        "equip": 0.6,
+        "reload_not_empty": 1.3,
+        "reload_steelsight_not_empty": 1.78,
+        "reload_steelsight": 1.78,
+        "unequip": 0.6,
+        "reload_empty": 1.3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 20,
         "suppression": 14,
@@ -9660,6 +10152,13 @@
         "fireRateSeconds": 0.75,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.34,
+        "equip": 0.6,
+        "unequip": 0.6,
+        "reload_empty": 4.5
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 18,
         "suppression": 2,
@@ -9802,6 +10301,57 @@
         "fireRateSeconds": 0.222,
         "fireMode": "single"
       },
+      "timers": {
+        "equip": 0.6,
+        "unequip": 0.6,
+        "shotgun_reload": {
+          "not_empty": {
+            "reload_enter": 0.46666666666667,
+            "reload_shell": 1,
+            "reload_exit": 1,
+            "reload_first_shell_offset": 0.3,
+            "reload_num": 2
+          },
+          "empty": {
+            "reload_enter": 0,
+            "reload_exit": 0,
+            "reload_queue": [
+              {
+                "reload_num": 1,
+                "expire_t": 1.4333333333333,
+                "stop_update_ammo": true,
+                "shell_order": [
+                  3
+                ]
+              },
+              {
+                "expire_t": 0.6,
+                "reload_num": 2,
+                "shell_order": [
+                  3,
+                  4,
+                  1,
+                  2
+                ]
+              },
+              {
+                "expire_t": 0.33333333333333,
+                "skip_update_ammo": true,
+                "reload_num": 2
+              },
+              {
+                "expire_t": 0.63333333333333,
+                "reload_num": 2,
+                "shell_order": [
+                  1,
+                  2
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "useShotgunReload": true,
       "rawStats": {
         "concealment": 24,
         "suppression": 5,
@@ -9941,6 +10491,13 @@
         "fireRateSeconds": 0.15,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.47,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 2.12
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 15,
@@ -10069,6 +10626,13 @@
         "fireRateSeconds": 0.12,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.6,
+        "equip": 0.9,
+        "unequip": 1.15,
+        "reload_empty": 2.5
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 21,
         "suppression": 13,
@@ -10227,6 +10791,16 @@
         "fireRateSeconds": 0.33,
         "fireMode": "burst"
       },
+      "timers": {
+        "shotgun_reload_enter": 1,
+        "shotgun_reload_exit_not_empty": 1.33,
+        "shotgun_reload_exit_empty": 1.33,
+        "equip": 1,
+        "shotgun_reload_first_shell_offset": 0,
+        "unequip": 0.6,
+        "shotgun_reload_shell": 1
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 21,
         "suppression": 2,
@@ -10367,6 +10941,13 @@
         "fireRateSeconds": 0.11,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.47,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 2.12
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 30,
         "suppression": 17,
@@ -10493,6 +11074,13 @@
         "fireRateSeconds": 0.0545,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 1.47,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 2.12
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 28,
         "suppression": 14,
@@ -10621,6 +11209,16 @@
         "fireRateSeconds": 0.5,
         "fireMode": "single"
       },
+      "timers": {
+        "shotgun_reload_enter": 0.43333333333333,
+        "shotgun_reload_exit_not_empty": 0.4,
+        "shotgun_reload_exit_empty": 0.76666666666667,
+        "equip": 0.6,
+        "shotgun_reload_first_shell_offset": 0.2,
+        "unequip": 0.6,
+        "shotgun_reload_shell": 0.56666666666667
+      },
+      "useShotgunReload": true,
       "rawStats": {
         "concealment": 19,
         "suppression": 5,
@@ -10765,6 +11363,13 @@
         "fireRateSeconds": 0.067,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.315,
+        "equip": 0.5,
+        "unequip": 0.6,
+        "reload_empty": 3.28
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 27,
         "suppression": 12,
@@ -10910,6 +11515,13 @@
         "fireRateSeconds": 0.09,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3.8,
+        "equip": 0.6,
+        "unequip": 0.6,
+        "reload_empty": 4.7
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 14,
         "suppression": 10,
@@ -11096,6 +11708,16 @@
         "fireRateSeconds": 0.75,
         "fireMode": "single"
       },
+      "timers": {
+        "shotgun_reload_enter": 0.733,
+        "shotgun_reload_exit_not_empty": 0.75,
+        "shotgun_reload_exit_empty": 1.1,
+        "equip": 0.85,
+        "shotgun_reload_first_shell_offset": 0,
+        "unequip": 0.55,
+        "shotgun_reload_shell": 0.33
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 20,
         "suppression": 5,
@@ -11223,6 +11845,14 @@
         "fireRateSeconds": 0.083,
         "fireMode": "auto"
       },
+      "timers": {
+        "equip": 0.9,
+        "reload_not_empty": 4.65,
+        "deploy_bipod": 1,
+        "unequip": 0.9,
+        "reload_empty": 6.7
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 1,
         "suppression": 2,
@@ -11349,6 +11979,13 @@
         "fireRateSeconds": 0.15,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 2.25,
+        "equip": 0.45,
+        "unequip": 0.5,
+        "reload_empty": 2.25
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 26,
         "suppression": 7,
@@ -11394,6 +12031,13 @@
         "fireRateSeconds": 0.125,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 4,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 4.17
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 28,
         "suppression": 14,
@@ -11516,6 +12160,13 @@
         "fireRateSeconds": 0.18,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3.5
+      },
+      "useShotgunReload": false,
       "rawStats": {
         "concealment": 21,
         "suppression": 5,
@@ -11642,6 +12293,14 @@
         "fireRateSeconds": 0.05,
         "fireMode": "auto"
       },
+      "timers": {
+        "equip": 0.9,
+        "reload_not_empty": 6.5,
+        "deploy_bipod": 1,
+        "unequip": 0.9,
+        "reload_empty": 6.5
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 1,
         "suppression": 4,
@@ -11760,6 +12419,14 @@
         "fireRateSeconds": 0.06,
         "fireMode": "auto"
       },
+      "timers": {
+        "equip": 0.9,
+        "reload_not_empty": 5,
+        "deploy_bipod": 1,
+        "unequip": 0.9,
+        "reload_empty": 6
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 9,
         "suppression": 3,
@@ -11884,6 +12551,13 @@
         "fireRateSeconds": 0.1,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.665,
+        "equip": 0.6,
+        "unequip": 0.6,
+        "reload_empty": 3.43
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 20,
         "suppression": 10,
@@ -12099,6 +12773,13 @@
         "fireRateSeconds": 0.03,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 8.5,
+        "equip": 0.85,
+        "unequip": 0.85,
+        "reload_empty": 8.5
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 21,
         "suppression": 2,
@@ -12168,6 +12849,13 @@
         "fireRateSeconds": 0.15,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 2.97,
+        "equip": 0.45,
+        "unequip": 0.5,
+        "reload_empty": 2.97
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 28,
         "suppression": 7,
@@ -12277,6 +12965,13 @@
         "fireRateSeconds": 0.085,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 2.3,
+        "equip": 0.9,
+        "unequip": 0.9,
+        "reload_empty": 3.3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 27,
         "suppression": 4,
@@ -12433,6 +13128,13 @@
         "fireRateSeconds": 0.083,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3.5,
+        "equip": 0.75,
+        "unequip": 0.6,
+        "reload_empty": 4.5
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 18,
         "suppression": 12,
@@ -12564,6 +13266,13 @@
         "fireRateSeconds": 0.11,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.47,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 2.12
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 30,
         "suppression": 16,
@@ -12609,6 +13318,13 @@
         "fireRateSeconds": 0.11,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.47,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 2.12
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 30,
         "suppression": 18,
@@ -12733,6 +13449,13 @@
         "fireRateSeconds": 0.125,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.47,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 2.2
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 15,
@@ -12855,6 +13578,16 @@
         "fireRateSeconds": 1.2,
         "fireMode": "single"
       },
+      "timers": {
+        "shotgun_reload_enter": 0.83,
+        "shotgun_reload_exit_not_empty": 1,
+        "shotgun_reload_exit_empty": 1.28,
+        "equip": 1,
+        "shotgun_reload_first_shell_offset": 0,
+        "unequip": 0.6,
+        "shotgun_reload_shell": 0.83
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 18,
         "suppression": 2,
@@ -12960,6 +13693,13 @@
         "fireRateSeconds": 0.12,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 2.2,
+        "equip": 0.4,
+        "unequip": 0.6,
+        "reload_empty": 2.2
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 10,
         "suppression": 5,
@@ -13070,6 +13810,13 @@
         "fireRateSeconds": 0.06,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.72,
+        "equip": 0.6,
+        "unequip": 0.55,
+        "reload_empty": 3.78
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 24,
         "suppression": 10,
@@ -13224,6 +13971,13 @@
         "fireRateSeconds": 0.063,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 1.51,
+        "equip": 0.4,
+        "unequip": 0.5,
+        "reload_empty": 2.48
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 26,
         "suppression": 16,
@@ -13372,6 +14126,13 @@
         "fireRateSeconds": 0.06,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2,
+        "equip": 0.5,
+        "unequip": 0.7,
+        "reload_empty": 2.75
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 28,
         "suppression": 17,
@@ -13525,6 +14286,13 @@
         "fireRateSeconds": 1,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 6,
+        "equip": 0.85,
+        "unequip": 0.85,
+        "reload_empty": 5.75
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 5,
         "suppression": 2,
@@ -13596,6 +14364,13 @@
         "fireRateSeconds": 0.084,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 1.65,
+        "equip": 0.7,
+        "unequip": 0.55,
+        "reload_empty": 2.4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 22,
         "suppression": 12,
@@ -13763,6 +14538,13 @@
         "fireRateSeconds": 2,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.1,
+        "equip": 0.6,
+        "unequip": 0.6,
+        "reload_empty": 3.1
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 22,
         "suppression": 2,
@@ -13894,6 +14676,13 @@
         "fireRateSeconds": 0.08,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.4,
+        "equip": 0.6,
+        "unequip": 0.6,
+        "reload_empty": 3.6
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 24,
         "suppression": 17,
@@ -13939,6 +14728,13 @@
         "fireRateSeconds": 0.4,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 2.3,
+        "equip": 0.9,
+        "unequip": 0.9,
+        "reload_empty": 3.3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 16,
         "suppression": 12,
@@ -14116,6 +14912,13 @@
         "fireRateSeconds": 0.125,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.52,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 2.32
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 15,
@@ -14241,6 +15044,13 @@
         "fireRateSeconds": 0.08,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2,
+        "equip": 0.6,
+        "unequip": 0.6,
+        "reload_empty": 3.5
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 18,
         "suppression": 14,
@@ -14404,6 +15214,13 @@
         "fireRateSeconds": 0.125,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.47,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 2.12
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 28,
         "suppression": 15,
@@ -14527,6 +15344,13 @@
         "fireRateSeconds": 0.11,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.47,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 2.12
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 30,
         "suppression": 16,
@@ -14653,6 +15477,13 @@
         "fireRateSeconds": 0.125,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.47,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 2.12
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 14,
@@ -14698,6 +15529,13 @@
         "fireRateSeconds": 0.06,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 1.47,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 2.12
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 26,
         "suppression": 14,
@@ -14823,6 +15661,13 @@
         "fireRateSeconds": 0.15,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.85,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 3.1
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 28,
         "suppression": 7,
@@ -14986,6 +15831,13 @@
         "fireRateSeconds": 0.2,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.3,
+        "equip": 0.85,
+        "unequip": 0.85,
+        "reload_empty": 1.3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 27,
         "suppression": 2,
@@ -15083,6 +15935,13 @@
         "fireRateSeconds": 3.6,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.5,
+        "equip": 0.4,
+        "unequip": 0.43,
+        "reload_empty": 3.5
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 21,
         "suppression": 14,
@@ -15233,6 +16092,16 @@
         "fireRateSeconds": 0.6,
         "fireMode": "single"
       },
+      "timers": {
+        "shotgun_reload_enter": 0.8,
+        "shotgun_reload_exit_not_empty": 0.56666666666667,
+        "shotgun_reload_exit_empty": 0.96666666666667,
+        "equip": 0.85,
+        "shotgun_reload_first_shell_offset": 0,
+        "unequip": 0.85,
+        "shotgun_reload_shell": 0.6
+      },
+      "useShotgunReload": true,
       "rawStats": {
         "concealment": 13,
         "suppression": 5,
@@ -15403,6 +16272,13 @@
         "fireRateSeconds": 1,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 2.72,
+        "equip": 0.75,
+        "unequip": 0.45,
+        "reload_empty": 3.86
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 19,
         "suppression": 5,
@@ -15547,6 +16423,13 @@
         "fireRateSeconds": 0.098,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.2,
+        "equip": 0.5,
+        "unequip": 0.6,
+        "reload_empty": 3.15
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 8,
         "suppression": 8,
@@ -15716,6 +16599,13 @@
         "fireRateSeconds": 0.2,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.5,
+        "equip": 0.85,
+        "unequip": 0.85,
+        "reload_empty": 1.5
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 2,
@@ -15778,6 +16668,13 @@
         "fireRateSeconds": 0.086,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.2,
+        "equip": 0.6,
+        "unequip": 0.6,
+        "reload_empty": 3.28
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 10,
         "suppression": 8,
@@ -15936,6 +16833,13 @@
         "fireRateSeconds": 0.03,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 8.5,
+        "equip": 0.85,
+        "unequip": 0.85,
+        "reload_empty": 8.5
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 7,
         "suppression": 2,
@@ -15981,6 +16885,13 @@
         "fireRateSeconds": 1,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 11.1,
+        "equip": 0.5,
+        "unequip": 0.6,
+        "reload_empty": 11.1
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 6,
         "suppression": 5,
@@ -16082,6 +16993,13 @@
         "fireRateSeconds": 0.15,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 2.47,
+        "equip": 0.45,
+        "unequip": 0.5,
+        "reload_empty": 2.47
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 26,
         "suppression": 8,
@@ -16187,6 +17105,13 @@
         "fireRateSeconds": 0.1,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 2.56,
+        "equip": 0.55,
+        "unequip": 0.6,
+        "reload_empty": 1.52
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 20,
         "suppression": 4,
@@ -16346,6 +17271,13 @@
         "fireRateSeconds": 0.071,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.6,
+        "unequip": 0.6,
+        "reload_empty": 4.2
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 15,
         "suppression": 7,
@@ -16506,6 +17438,13 @@
         "fireRateSeconds": 0.125,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.5,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 2.15
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 15,
@@ -16617,6 +17556,13 @@
         "fireRateSeconds": 0.092,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 1.4,
+        "equip": 0.65,
+        "unequip": 0.6,
+        "reload_empty": 2
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 12,
         "suppression": 6,
@@ -16780,6 +17726,13 @@
         "fireRateSeconds": 2,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.1,
+        "equip": 0.6,
+        "unequip": 0.6,
+        "reload_empty": 3.1
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 18,
         "suppression": 2,
@@ -16881,6 +17834,13 @@
         "fireRateSeconds": 0.107,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.8,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3.87
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 11,
         "suppression": 8,
@@ -17076,6 +18036,13 @@
         "fireRateSeconds": 0.18,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 2.55,
+        "equip": 0.6,
+        "unequip": 0.6,
+        "reload_empty": 2.55
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 13,
         "suppression": 5,
@@ -17227,6 +18194,13 @@
         "fireRateSeconds": 0.2,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.16,
+        "equip": 0.55,
+        "unequip": 0.55,
+        "reload_empty": 2.9
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 21,
         "suppression": 5,
@@ -17375,6 +18349,13 @@
         "fireRateSeconds": 0.4,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 2.3,
+        "equip": 0.9,
+        "unequip": 0.9,
+        "reload_empty": 3.3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 16,
         "suppression": 12,
@@ -17528,6 +18509,15 @@
         "fireRateSeconds": 0.75,
         "fireMode": "single"
       },
+      "timers": {
+        "equip": 0.6,
+        "reload_not_empty": 1.78,
+        "reload_empty": 1.78,
+        "unequip": 0.6,
+        "unequip_underbarrel": 0.4,
+        "equip_underbarrel": 0.4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 18,
         "suppression": 2,
@@ -17575,6 +18565,13 @@
         "fireRateSeconds": 0.11,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.55,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 2.12
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 30,
         "suppression": 18,
@@ -17699,6 +18696,16 @@
         "fireRateSeconds": 0.575,
         "fireMode": "single"
       },
+      "timers": {
+        "shotgun_reload_enter": 0.5,
+        "shotgun_reload_exit_not_empty": 0.3,
+        "shotgun_reload_exit_empty": 0.7,
+        "equip": 0.85,
+        "shotgun_reload_first_shell_offset": 0,
+        "unequip": 0.85,
+        "shotgun_reload_shell": 0.65
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 22,
         "suppression": 5,
@@ -17818,6 +18825,13 @@
         "fireRateSeconds": 0.03,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3.6,
+        "equip": 0.55,
+        "unequip": 0.55,
+        "reload_empty": 4.3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 8,
         "suppression": 12,
@@ -17925,6 +18939,13 @@
         "fireRateSeconds": 0.08,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.07,
+        "equip": 0.5,
+        "unequip": 0.55,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 28,
         "suppression": 14,
@@ -18077,6 +19098,13 @@
         "fireRateSeconds": 2.9,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 2.5,
+        "equip": 0.5,
+        "unequip": 0.7,
+        "reload_empty": 2.5
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 28,
         "suppression": 14,
@@ -18178,6 +19206,13 @@
         "fireRateSeconds": 0.125,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.5,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 2.15
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 28,
         "suppression": 15,
@@ -18301,6 +19336,13 @@
         "fireRateSeconds": 2,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 4.7,
+        "equip": 0.85,
+        "unequip": 0.85,
+        "reload_empty": 4.7
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 5,
         "suppression": 2,
@@ -18420,6 +19462,13 @@
         "fireRateSeconds": 0.08,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 2.7
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 25,
         "suppression": 16,
@@ -18544,6 +19593,13 @@
         "fireRateSeconds": 0.125,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.47,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 2.2
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 16,
@@ -18665,6 +19721,13 @@
         "fireRateSeconds": 0.18,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.65,
+        "equip": 0.6,
+        "unequip": 0.6,
+        "reload_empty": 3.95
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 13,
         "suppression": 5,
@@ -18840,6 +19903,13 @@
         "fireRateSeconds": 0.092,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.36,
+        "equip": 0.5,
+        "unequip": 0.6,
+        "reload_empty": 3.62
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 24,
         "suppression": 14,
@@ -19004,6 +20074,13 @@
         "fireRateSeconds": 0.05,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.05,
+        "equip": 0.5,
+        "unequip": 0.55,
+        "reload_empty": 3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 25,
         "suppression": 14,
@@ -19164,6 +20241,13 @@
         "fireRateSeconds": 0.12,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 2.5,
+        "equip": 0.55,
+        "unequip": 0.55,
+        "reload_empty": 2.7
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 5,
         "suppression": 2,
@@ -19270,6 +20354,13 @@
         "fireRateSeconds": 0.085,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.85,
+        "equip": 0.6,
+        "unequip": 0.6,
+        "reload_empty": 3.85
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 19,
         "suppression": 11,
@@ -19433,6 +20524,15 @@
         "fireRateSeconds": 0.6,
         "fireMode": "single"
       },
+      "timers": {
+        "equip": 0.6,
+        "reload_not_empty": 1.78,
+        "reload_empty": 1.78,
+        "unequip": 0.6,
+        "unequip_underbarrel": 0.4,
+        "equip_underbarrel": 0.4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 18,
         "suppression": 2,
@@ -19480,6 +20580,13 @@
         "fireRateSeconds": 0.03,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.9,
+        "equip": 0.85,
+        "unequip": 0.85,
+        "reload_empty": 2.9
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 7,
         "suppression": 2,
@@ -19526,6 +20633,13 @@
         "fireRateSeconds": 0.125,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 2.75,
+        "equip": 0.45,
+        "unequip": 0.5,
+        "reload_empty": 2.75
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 27,
         "suppression": 7,
@@ -19650,6 +20764,13 @@
         "fireRateSeconds": 0.125,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.5,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 2.15
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 28,
         "suppression": 15,
@@ -19774,6 +20895,13 @@
         "fireRateSeconds": 0.4,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 2.3,
+        "equip": 0.9,
+        "unequip": 0.9,
+        "reload_empty": 3.3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 12,
         "suppression": 12,
@@ -19919,6 +21047,13 @@
         "fireRateSeconds": 0.086,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.16,
+        "equip": 0.55,
+        "unequip": 0.55,
+        "reload_empty": 2.9
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 8,
         "suppression": 12,
@@ -20080,6 +21215,13 @@
         "fireRateSeconds": 0.066,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.55,
+        "equip": 0.65,
+        "unequip": 0.68,
+        "reload_empty": 3.4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 25,
         "suppression": 12,
@@ -20229,6 +21371,13 @@
         "fireRateSeconds": 0.073,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.15,
+        "equip": 0.6,
+        "unequip": 0.55,
+        "reload_empty": 3.9
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 21,
         "suppression": 8,
@@ -20410,6 +21559,13 @@
         "fireRateSeconds": 0.05,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2,
+        "equip": 0.5,
+        "unequip": 0.6,
+        "reload_empty": 2.5
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 20,
         "suppression": 14,
@@ -20577,6 +21733,13 @@
         "fireRateSeconds": 0.12,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.1,
+        "equip": 0.6,
+        "unequip": 0.6,
+        "reload_empty": 2.9
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 16,
         "suppression": 14,
@@ -20736,6 +21899,14 @@
         "fireRateSeconds": 0.066,
         "fireMode": "auto"
       },
+      "timers": {
+        "equip": 0.9,
+        "reload_not_empty": 6.5,
+        "deploy_bipod": 0.85,
+        "unequip": 0.9,
+        "reload_empty": 6.5
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 1,
         "suppression": 4,
@@ -20860,6 +22031,14 @@
         "fireRateSeconds": 0.066,
         "fireMode": "auto"
       },
+      "timers": {
+        "equip": 0.9,
+        "reload_not_empty": 5.62,
+        "deploy_bipod": 1,
+        "unequip": 0.9,
+        "reload_empty": 5.62
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 1,
         "suppression": 4,
@@ -20992,6 +22171,13 @@
         "fireRateSeconds": 0.4,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 4.64,
+        "equip": 0.9,
+        "unequip": 0.9,
+        "reload_empty": 6.2
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 16,
         "suppression": 12,
@@ -21140,6 +22326,13 @@
         "fireRateSeconds": 0.125,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.47,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 2.12
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 15,
@@ -21261,6 +22454,13 @@
         "fireRateSeconds": 1.5,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.5,
+        "equip": 0.5,
+        "unequip": 0.7,
+        "reload_empty": 1.5
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 14,
@@ -21362,6 +22562,13 @@
         "fireRateSeconds": 0.07,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3.2,
+        "equip": 0.6,
+        "unequip": 0.6,
+        "reload_empty": 4.75
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 17,
         "suppression": 12,
@@ -21515,6 +22722,13 @@
         "fireRateSeconds": 0.098,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 2.55,
+        "equip": 0.5,
+        "unequip": 0.6,
+        "reload_empty": 3.2
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 8,
         "suppression": 8,
@@ -21680,6 +22894,15 @@
         "fireRateSeconds": 0.75,
         "fireMode": "single"
       },
+      "timers": {
+        "equip": 0.6,
+        "reload_not_empty": 2.45,
+        "reload_empty": 2.45,
+        "unequip": 0.6,
+        "unequip_underbarrel": 0.4,
+        "equip_underbarrel": 0.4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 18,
         "suppression": 2,
@@ -21727,6 +22950,11 @@
         "fireRateSeconds": 0.375,
         "fireMode": "single"
       },
+      "timers": {
+        "unequip": 0.7,
+        "equip": 0.6
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 23,
         "suppression": 5,
@@ -21898,6 +23126,11 @@
         "fireRateSeconds": 0.14,
         "fireMode": "single"
       },
+      "timers": {
+        "unequip": 0.85,
+        "equip": 0.85
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 12,
         "suppression": 6,
@@ -21943,6 +23176,13 @@
         "fireRateSeconds": 0.11,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.5,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 2.15
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 30,
         "suppression": 15,
@@ -22066,6 +23306,13 @@
         "fireRateSeconds": 0.085,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 2.65,
+        "equip": 0.55,
+        "unequip": 0.6,
+        "reload_empty": 3.15
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 8,
         "suppression": 4,
@@ -22111,6 +23358,14 @@
         "fireRateSeconds": 0.109,
         "fireMode": "auto"
       },
+      "timers": {
+        "equip": 0.9,
+        "reload_not_empty": 6.25,
+        "deploy_bipod": 1,
+        "unequip": 0.9,
+        "reload_empty": 6.25
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 1,
         "suppression": 3,
@@ -22240,6 +23495,13 @@
         "fireRateSeconds": 0.03,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 8.5,
+        "equip": 0.85,
+        "unequip": 0.85,
+        "reload_empty": 8.5
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 15,
         "suppression": 2,
@@ -22345,6 +23607,13 @@
         "fireRateSeconds": 0.06,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 2.7
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 27,
         "suppression": 14,
@@ -22502,6 +23771,13 @@
         "fireRateSeconds": 0.15,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.6,
+        "equip": 0.45,
+        "unequip": 0.5,
+        "reload_empty": 3.6
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 20,
         "suppression": 7,
@@ -22547,6 +23823,13 @@
         "fireRateSeconds": 0.05,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 1.85,
+        "equip": 0.5,
+        "unequip": 0.7,
+        "reload_empty": 2.6
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 14,
@@ -22674,6 +23957,13 @@
         "fireRateSeconds": 0.05455,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 1.85,
+        "equip": 0.5,
+        "unequip": 0.7,
+        "reload_empty": 2.6
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 26,
         "suppression": 14,
@@ -22794,6 +24084,13 @@
         "fireRateSeconds": 0.12,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 2.5,
+        "equip": 0.6,
+        "unequip": 0.6,
+        "reload_empty": 2.5
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 7,
         "suppression": 2,
@@ -22899,6 +24196,11 @@
         "fireRateSeconds": 0.4,
         "fireMode": "single"
       },
+      "timers": {
+        "unequip": 0.85,
+        "equip": 0.85
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 19,
         "suppression": 5,
@@ -23052,6 +24354,13 @@
         "fireRateSeconds": 0.1,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 1.9,
+        "equip": 0.6,
+        "unequip": 0.5,
+        "reload_empty": 3.05
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 24,
         "suppression": 14,
@@ -23197,6 +24506,13 @@
         "fireRateSeconds": 1,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.85,
+        "equip": 0.5,
+        "unequip": 0.6,
+        "reload_empty": 3.85
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 6,
         "suppression": 5,
@@ -23343,6 +24659,13 @@
         "fireRateSeconds": 0.4,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 2.5,
+        "equip": 0.9,
+        "unequip": 0.9,
+        "reload_empty": 3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 16,
         "suppression": 6,
@@ -23521,6 +24844,13 @@
         "fireRateSeconds": 0.15,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3.75,
+        "equip": 0.8,
+        "unequip": 0.8,
+        "reload_empty": 3.75
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 16,
         "suppression": 7,
@@ -23619,6 +24949,13 @@
         "fireRateSeconds": 0.15,
         "fireMode": "auto"
       },
+      "timers": {
+        "unequip": 0.8,
+        "equip": 0.8,
+        "reload_not_empty": 3.75,
+        "reload_empty": 3.75
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 16,
         "suppression": 7,
@@ -23717,6 +25054,13 @@
         "fireRateSeconds": 0.088,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.16,
+        "equip": 0.5,
+        "unequip": 0.6,
+        "reload_empty": 3.23
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 24,
         "suppression": 10,
@@ -23913,6 +25257,13 @@
         "fireRateSeconds": 0.15,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.33,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 2.1
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 15,
@@ -24017,6 +25368,13 @@
         "fireRateSeconds": 0.11,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.3,
+        "equip": 0.65,
+        "unequip": 0.55,
+        "reload_empty": 3.3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 20,
         "suppression": 12,
@@ -24169,6 +25527,16 @@
         "fireRateSeconds": 0.15,
         "fireMode": "single"
       },
+      "timers": {
+        "shotgun_reload_enter": 1.4333333333333,
+        "shotgun_reload_exit_not_empty": 0.33333333333333,
+        "shotgun_reload_exit_empty": 0.33333333333333,
+        "equip": 0.65,
+        "shotgun_reload_first_shell_offset": 0,
+        "unequip": 0.65,
+        "shotgun_reload_shell": 1
+      },
+      "useShotgunReload": true,
       "rawStats": {
         "concealment": 26,
         "suppression": 5,
@@ -24271,6 +25639,16 @@
         "fireRateSeconds": 1,
         "fireMode": "single"
       },
+      "timers": {
+        "shotgun_reload_enter": 1.96,
+        "shotgun_reload_exit_not_empty": 1.33,
+        "shotgun_reload_exit_empty": 1.33,
+        "equip": 0.85,
+        "shotgun_reload_first_shell_offset": 0,
+        "unequip": 0.85,
+        "shotgun_reload_shell": 2
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 10,
         "suppression": 2,
@@ -24416,6 +25794,13 @@
         "fireRateSeconds": 2.233,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.33,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 3.33
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 27,
         "suppression": 15,
@@ -24540,6 +25925,13 @@
         "fireRateSeconds": 1.2,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.8,
+        "equip": 0.5,
+        "unequip": 0.55,
+        "reload_empty": 1.2
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 26,
         "suppression": 14,
@@ -24617,6 +26009,13 @@
         "fireRateSeconds": 0.2,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1,
+        "equip": 0.55,
+        "unequip": 0.55,
+        "reload_empty": 1
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 30,
         "suppression": 2,
@@ -24680,6 +26079,13 @@
         "fireRateSeconds": 1,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.35,
+        "equip": 0.75,
+        "unequip": 0.45,
+        "reload_empty": 4.5
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 6,
         "suppression": 5,
@@ -24828,6 +26234,11 @@
         "fireRateSeconds": 0.2,
         "fireMode": "single"
       },
+      "timers": {
+        "unequip": 0.85,
+        "equip": 0.85
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 14,
         "suppression": 5,
@@ -24971,6 +26382,13 @@
         "fireRateSeconds": 1,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.4,
+        "equip": 0.45,
+        "unequip": 0.4,
+        "reload_empty": 5.3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 18,
         "suppression": 5,
@@ -25128,6 +26546,13 @@
         "fireRateSeconds": 0.083,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3.5,
+        "equip": 0.75,
+        "unequip": 0.45,
+        "reload_empty": 4.5
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 16,
         "suppression": 12,
@@ -25293,6 +26718,13 @@
         "fireRateSeconds": 0.8,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.35,
+        "equip": 0.75,
+        "unequip": 0.45,
+        "reload_empty": 4.7
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 10,
         "suppression": 5,
@@ -25443,6 +26875,13 @@
         "fireRateSeconds": 1,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 2.82,
+        "equip": 0.65,
+        "unequip": 0.7,
+        "reload_empty": 3.82
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 5,
         "suppression": 4,
@@ -25585,6 +27024,13 @@
         "fireRateSeconds": 1,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 2.6,
+        "equip": 0.7,
+        "unequip": 0.6,
+        "reload_empty": 3.7
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 5,
         "suppression": 6,
@@ -25727,6 +27173,11 @@
         "fireRateSeconds": 0.575,
         "fireMode": "single"
       },
+      "timers": {
+        "unequip": 0.6,
+        "equip": 0.55
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 22,
         "suppression": 5,
@@ -25870,6 +27321,16 @@
         "fireRateSeconds": 0.5,
         "fireMode": "single"
       },
+      "timers": {
+        "shotgun_reload_enter": 0.5,
+        "shotgun_reload_exit_not_empty": 0.3,
+        "shotgun_reload_exit_empty": 0.7,
+        "equip": 0.85,
+        "shotgun_reload_first_shell_offset": 0,
+        "unequip": 0.85,
+        "shotgun_reload_shell": 0.65
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 17,
         "suppression": 5,
@@ -25990,6 +27451,11 @@
         "fireRateSeconds": 0.575,
         "fireMode": "single"
       },
+      "timers": {
+        "unequip": 0.85,
+        "equip": 0.85
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 11,
         "suppression": 5,
@@ -26162,6 +27628,16 @@
         "fireRateSeconds": 0.7,
         "fireMode": "single"
       },
+      "timers": {
+        "shotgun_reload_enter": 0.43333333333333,
+        "shotgun_reload_exit_not_empty": 0.4,
+        "shotgun_reload_exit_empty": 0.76666666666667,
+        "equip": 0.9,
+        "shotgun_reload_first_shell_offset": 0.2,
+        "unequip": 0.9,
+        "shotgun_reload_shell": 0.56666666666667
+      },
+      "useShotgunReload": true,
       "rawStats": {
         "concealment": 12,
         "suppression": 5,
@@ -26209,6 +27685,13 @@
         "fireRateSeconds": 0.075,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.5,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3.5
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 16,
         "suppression": 7,
@@ -26365,6 +27848,14 @@
         "fireRateSeconds": 0.08,
         "fireMode": "auto"
       },
+      "timers": {
+        "equip": 0.9,
+        "reload_not_empty": 3.4,
+        "deploy_bipod": 1,
+        "unequip": 0.9,
+        "reload_empty": 4.56
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 5,
         "suppression": 8,
@@ -26516,6 +28007,13 @@
         "fireRateSeconds": 0.15,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 2.25,
+        "equip": 0.45,
+        "unequip": 0.5,
+        "reload_empty": 2.25
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 25,
         "suppression": 5,
@@ -26645,6 +28143,14 @@
         "fireRateSeconds": 0.09,
         "fireMode": "auto"
       },
+      "timers": {
+        "equip": 0.55,
+        "reload_not_empty": 3.1,
+        "deploy_bipod": 1,
+        "unequip": 0.6,
+        "reload_empty": 3.65
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 19,
         "suppression": 2,
@@ -26795,6 +28301,13 @@
         "fireRateSeconds": 0.125,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.47,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 2.12
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 15,
@@ -26924,6 +28437,13 @@
         "fireRateSeconds": 0.08,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.11,
+        "equip": 0.5,
+        "unequip": 0.6,
+        "reload_empty": 2.85
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 24,
         "suppression": 14,
@@ -27088,6 +28608,13 @@
         "fireRateSeconds": 0.063,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 1.96,
+        "equip": 0.5,
+        "unequip": 0.6,
+        "reload_empty": 2.45
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 23,
         "suppression": 16,
@@ -27235,6 +28762,13 @@
         "fireRateSeconds": 0.2,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3,
+        "equip": 0.55,
+        "unequip": 0.55,
+        "reload_empty": 4.1
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 9,
         "suppression": 5,
@@ -27385,6 +28919,16 @@
         "fireRateSeconds": 0.14,
         "fireMode": "single"
       },
+      "timers": {
+        "shotgun_reload_enter": 0.53333333333333,
+        "shotgun_reload_exit_not_empty": 0.4,
+        "shotgun_reload_exit_empty": 0.4,
+        "equip": 0.85,
+        "shotgun_reload_first_shell_offset": 0.13333333333333,
+        "unequip": 0.6,
+        "shotgun_reload_shell": 0.6
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 21,
         "suppression": 5,
@@ -27524,6 +29068,13 @@
         "fireRateSeconds": 0.125,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.47,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 2.12
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 28,
         "suppression": 15,
@@ -27645,6 +29196,13 @@
         "fireRateSeconds": 0.066,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 1.47,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 2.12
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 14,
@@ -27690,6 +29248,13 @@
         "fireRateSeconds": 0.1,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.85,
+        "equip": 0.6,
+        "unequip": 0.5,
+        "reload_empty": 3.9
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 24,
         "suppression": 14,
@@ -27837,6 +29402,13 @@
         "fireRateSeconds": 0.092,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3.25,
+        "equip": 0.5,
+        "unequip": 0.6,
+        "reload_empty": 4.25
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 24,
         "suppression": 14,
@@ -28004,6 +29576,13 @@
         "fireRateSeconds": 0.075,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.35,
+        "equip": 0.6,
+        "unequip": 0.65,
+        "reload_empty": 3.35
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 26,
         "suppression": 12,
@@ -28164,6 +29743,13 @@
         "fireRateSeconds": 1.25,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 3.8,
+        "equip": 0.6,
+        "unequip": 0.6,
+        "reload_empty": 5.1
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 1,
         "suppression": 2,
@@ -28320,6 +29906,13 @@
         "fireRateSeconds": 0.12,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 2.25,
+        "equip": 0.45,
+        "unequip": 0.5,
+        "reload_empty": 2.25
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 5,
@@ -28456,6 +30049,11 @@
         "fireRateSeconds": 0.15,
         "fireMode": "auto"
       },
+      "timers": {
+        "unequip": 0.6,
+        "equip": 0.6
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 20,
         "suppression": 10,
@@ -28503,6 +30101,13 @@
         "fireRateSeconds": 0.08,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.5,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3.3
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 20,
         "suppression": 10,
@@ -28661,6 +30266,13 @@
         "fireRateSeconds": 0.07,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.1,
+        "equip": 0.6,
+        "unequip": 0.6,
+        "reload_empty": 2.9
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 20,
         "suppression": 12,
@@ -28828,6 +30440,13 @@
         "fireRateSeconds": 0.086,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.45,
+        "equip": 0.6,
+        "unequip": 0.55,
+        "reload_empty": 3.52
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 24,
         "suppression": 12,
@@ -28980,6 +30599,13 @@
         "fireRateSeconds": 0.067,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 2.6,
+        "equip": 0.5,
+        "unequip": 0.5,
+        "reload_empty": 3.7
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 26,
         "suppression": 24,
@@ -29116,6 +30742,13 @@
         "fireRateSeconds": 0.22,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 3.1,
+        "equip": 0.6,
+        "unequip": 0.6,
+        "reload_empty": 3.6
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 6,
         "suppression": 5,
@@ -29291,6 +30924,13 @@
         "fireRateSeconds": 0.02,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 7.8,
+        "equip": 0.9,
+        "unequip": 0.9,
+        "reload_empty": 7.8
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 5,
         "suppression": 4,
@@ -29399,6 +31039,13 @@
         "fireRateSeconds": 0.045,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 1.51,
+        "equip": 0.5,
+        "unequip": 1.8,
+        "reload_empty": 2.48
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 8,
@@ -29524,6 +31171,13 @@
         "fireRateSeconds": 0.15,
         "fireMode": "single"
       },
+      "timers": {
+        "reload_not_empty": 1.47,
+        "equip": 0.35,
+        "unequip": 0.5,
+        "reload_empty": 2.12
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 29,
         "suppression": 15,
@@ -29643,6 +31297,13 @@
         "fireRateSeconds": 0.6,
         "fireMode": "single"
       },
+      "timers": {
+        "unequip": 0.5,
+        "equip": 0.5,
+        "reload_not_empty": 3.17,
+        "reload_empty": 4
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 18,
         "suppression": 2,
@@ -29690,6 +31351,13 @@
         "fireRateSeconds": 0.03,
         "fireMode": "auto"
       },
+      "timers": {
+        "reload_not_empty": 7.8,
+        "equip": 0.9,
+        "unequip": 1.5,
+        "reload_empty": 7.8
+      },
+      "useShotgunReload": null,
       "rawStats": {
         "concealment": 5,
         "suppression": 4,

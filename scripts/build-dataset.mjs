@@ -130,6 +130,8 @@ function normalizeWeapon(weaponId, rawWeapon) {
       fireMode: rawWeapon.FIRE_MODE ?? null,
     },
 
+    timers: rawWeapon.timers ?? {},
+    useShotgunReload: rawWeapon.use_shotgun_reload ?? null,
     rawStats,
     statsModifiers,
     defaultBlueprint: factory?.default_blueprint ?? [],

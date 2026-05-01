@@ -44,12 +44,55 @@ button {
 
 .top-bar {
   display: grid;
-  grid-template-columns: minmax(220px, 0.8fr) minmax(320px, 1fr) auto;
+  grid-template-columns: minmax(190px, 0.65fr) auto minmax(320px, 1fr) auto;
   align-items: stretch;
   min-height: 46px;
   border-bottom: 1px solid #1d2b33;
   background: #101315;
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.38);
+}
+
+.top-actions {
+  display: flex;
+  position: relative;
+  align-items: stretch;
+  border-left: 1px solid #19242b;
+}
+
+.top-actions button {
+  padding: 0 0.75rem;
+  border-right: 1px solid #19242b;
+  background: #0f1518;
+  color: #9ed4ff;
+  cursor: pointer;
+  font-size: 0.68rem;
+  font-weight: 850;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.top-actions button:hover {
+  background: #14262d;
+  color: #00d9ff;
+}
+
+.clipboard-status {
+  position: absolute;
+  left: 50%;
+  top: calc(100% + 0.45rem);
+  z-index: 3;
+  transform: translateX(-50%);
+  padding: 0.42rem 0.62rem;
+  border: 1px solid #27576a;
+  background: #0d1c22;
+  color: #9ed4ff;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
 }
 
 .brand-button {
@@ -118,12 +161,14 @@ button {
   background: #15191d;
 }
 
+.skills-screen,
 .weapon-browser,
 .builder-screen {
   width: 100%;
   min-width: 0;
 }
 
+.skills-screen,
 .weapon-browser {
   padding: 1rem;
 }
@@ -198,7 +243,18 @@ p {
   gap: 0.85rem;
 }
 
+.skill-groups {
+  display: grid;
+  gap: 0.85rem;
+}
+
 .weapon-group {
+  min-width: 0;
+  border: 1px solid #1b2a32;
+  background: rgba(12, 15, 18, 0.92);
+}
+
+.skill-group {
   min-width: 0;
   border: 1px solid #1b2a32;
   background: rgba(12, 15, 18, 0.92);
@@ -258,6 +314,7 @@ p {
 }
 
 .weapon-table-wrap,
+.skill-table-wrap,
 .mod-table-wrap {
   width: 100%;
   min-width: 0;
@@ -365,6 +422,37 @@ p {
 .weapon-table {
   min-width: 880px;
   table-layout: fixed;
+}
+
+.skill-table {
+  min-width: 980px;
+  table-layout: fixed;
+}
+
+.skill-table th:first-child,
+.skill-table td:first-child {
+  width: 20%;
+}
+
+.skill-table th:nth-child(2),
+.skill-table td:nth-child(2) {
+  width: 20%;
+}
+
+.skill-table th:nth-child(3),
+.skill-table td:nth-child(3) {
+  width: 25%;
+}
+
+.skill-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  cursor: pointer;
+}
+
+.skill-check input {
+  accent-color: #00d9ff;
 }
 
 .weapon-table th:first-child,
@@ -518,6 +606,25 @@ p {
   font-weight: 850;
 }
 
+.skill-delta {
+  display: inline-block;
+  margin-left: 0.45rem;
+  color: #47a8ff;
+}
+
+.additional-stats {
+  display: grid;
+  gap: 0.45rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #22333c;
+}
+
+.additional-stats p {
+  color: #9ed4ff;
+  font-size: 0.8rem;
+  line-height: 1.35;
+}
+
 .positive {
   color: #49d47d;
 }
@@ -669,6 +776,14 @@ p {
     grid-template-columns: 1fr;
   }
 
+  .top-actions {
+    min-height: 38px;
+  }
+
+  .top-actions button {
+    flex: 1;
+  }
+
   .browser-toolbar {
     grid-template-columns: minmax(220px, 0.75fr) minmax(320px, 1.25fr);
   }
@@ -701,6 +816,7 @@ p {
 }
 
 @media (max-width: 720px) {
+  .skills-screen,
   .weapon-browser,
   .build-sidebar {
     padding: 0.5rem;
