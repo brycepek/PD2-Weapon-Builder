@@ -19,6 +19,8 @@ const factoryWeapons = readJson("raw-data/factory_weapons.json");
 const factoryOther = readJson("raw-data/factory_other.json");
 const blackmarketWeaponMods = readJson("raw-data/blackmarket_weapon_mods.json");
 const localization = readJson("raw-data/localization.json");
+const weaponStatsTables = readJson("raw-data/weapon_stats_tables.json");
+const weaponStatsModifiers = readJson("raw-data/weapon_stats_modifiers.json");
 
 // In your current dump, the actual weapon part definitions are nested here.
 const factoryParts = factoryOther.parts ?? {};
@@ -51,6 +53,14 @@ function getDisplayName(nameId, fallbackId) {
   }
 
   return cleanFallbackName(fallbackId);
+}
+
+function objectOrEmpty(value) {
+  if (!value || typeof value !== "object" || Array.isArray(value)) {
+    return {};
+  }
+
+  return value;
 }
 
 function findLikelyFactoryId(weaponId) {
@@ -94,6 +104,9 @@ function normalizeWeapon(weaponId, rawWeapon) {
   const factoryId = findLikelyFactoryId(weaponId);
   const factory = factoryId ? factoryWeapons[factoryId] : null;
 
+  const rawStats = rawWeapon.stats ?? rawWeapon.raw_stats ?? {};
+  const statsModifiers = objectOrEmpty(weaponStatsModifiers[weaponId]?.stats_modifiers);
+
   return {
     id: weaponId,
     factoryId,
@@ -104,12 +117,12 @@ function normalizeWeapon(weaponId, rawWeapon) {
     selectionIndex: rawWeapon.use_data?.selection_index ?? null,
 
     baseStats: {
-      damage: rawWeapon.stats?.damage ?? null,
-      concealment: rawWeapon.stats?.concealment ?? null,
-      accuracy: rawWeapon.stats?.spread ?? null,
-      stability: rawWeapon.stats?.recoil ?? null,
-      threat: rawWeapon.stats?.suppression ?? null,
-      reload: rawWeapon.stats?.reload ?? null,
+      damage: rawStats.damage ?? null,
+      concealment: rawStats.concealment ?? null,
+      accuracy: rawStats.spread ?? null,
+      stability: rawStats.recoil ?? null,
+      threat: rawStats.suppression ?? null,
+      reload: rawStats.reload ?? null,
       magazine: rawWeapon.CLIP_AMMO_MAX ?? null,
       totalAmmo: rawWeapon.AMMO_MAX ?? null,
       pickup: rawWeapon.AMMO_PICKUP ?? null,
@@ -117,7 +130,8 @@ function normalizeWeapon(weaponId, rawWeapon) {
       fireMode: rawWeapon.FIRE_MODE ?? null,
     },
 
-    rawStats: rawWeapon.stats ?? {},
+    rawStats,
+    statsModifiers,
     defaultBlueprint: factory?.default_blueprint ?? [],
     compatiblePartIds: factory?.uses_parts ?? [],
     optionalTypes: factory?.optional_types ?? [],
@@ -139,6 +153,9 @@ function normalizePart(partId, rawPart) {
     perks: rawPart.perks ?? [],
     adds: rawPart.adds ?? [],
     forbids: rawPart.forbids ?? [],
+    dependsOn: rawPart.depends_on ?? null,
+    addsType: rawPart.adds_type ?? [],
+    parent: rawPart.parent ?? null,
     dlc: rawPart.dlc ?? blackmarketData.dlc ?? null,
     inaccessible: rawPart.inaccessible ?? blackmarketData.inaccessible ?? false,
     unlockLevel: blackmarketData.qlvl ?? null,
@@ -156,6 +173,7 @@ const parts = Object.entries(factoryParts)
 
 const dataset = {
   generatedAt: new Date().toISOString(),
+  statTables: weaponStatsTables,
   weapons,
   parts,
 };
