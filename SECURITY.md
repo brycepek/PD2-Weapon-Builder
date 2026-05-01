@@ -11,4 +11,4 @@ We actively support the following versions:
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability, please report it by emailing brycepek@gmail.com. Include as much detail as possible to help us address the issue promptly.
+If you discover a security vulnerability, please report it by emailing brycepek.linux@gmail.com. Include as much detail as possible to help us address the issue promptly.
