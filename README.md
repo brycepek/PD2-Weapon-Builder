@@ -2,7 +2,9 @@
 
 A desktop-ready PAYDAY 2 weapon builder focused on fast comparison, mod compatibility, skill effects, and importable/exportable builds.
 
-Current to Update 245
+Current to Update 245.
+
+Planned to add visuals/photos of the weapons and potenitally modifications. Feel free to suggest additions. Make sure to share your builds!
 
 Built with **React**, **TypeScript**, **Vite**, and **Tauri**.
 
